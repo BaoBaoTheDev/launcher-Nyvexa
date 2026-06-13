@@ -1,0 +1,91 @@
+.auth-link-btn,
+.auth-inline-link,
+.auth-back-btn,
+.account-picker-inline-link {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.auth-link-btn {
+  color: #8f98a0;
+  font-size: 12px;
+}
+
+.auth-inline-link,
+.account-picker-inline-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.auth-inline-link:hover,
+.account-picker-inline-link:hover {
+  color: #66c0f4;
+}
+
+.auth-footer-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #8f98a0;
+}
+
+.auth-back-btn {
+  background: transparent;
+  border: none;
+  color: #8f98a0;
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.login-only .auth-wrapper {
+  background: radial-gradient(circle at center, #2a475e 0%, #181a21 100%);
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.login-only .auth-card {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-only .auth-picker-card {
+  max-width: none;
+  justify-content: flex-start;
+  padding-top: 60px;
+}
+
+.app-shell-placeholder {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px;
+  background: var(--glass-bg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-card);
+}
+
+.app-shell-placeholder h2 {
+  margin-bottom: 12px;
+}
+
+.app-shell-placeholder p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.app-shell-placeholder ul {
+  padding-left: 20px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}

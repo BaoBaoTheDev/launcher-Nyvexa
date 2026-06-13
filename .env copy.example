@@ -1,0 +1,10 @@
+# Supabase Configuration
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# Admin emails (comma separated)
+ADMIN_EMAILS=
+
+# Optional encrypted env secret (must match Electron build)
+NESTG_ENV_SECRET=nestg-launcher-env-secret-v1

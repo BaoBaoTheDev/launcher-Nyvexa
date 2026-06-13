@@ -1,0 +1,676 @@
+:root {
+  --bg-main: #0b0e14;
+  --bg-nav: #161b22;
+  --bg-card: #161b22;
+  --bg-elevated: #1b212b;
+  --glass-bg: rgba(22, 27, 34, 0.7);
+  --glass-blur: blur(20px);
+  --accent-blue: #3b82f6;
+  --accent-green: #10b981;
+  --text-primary: #e6edf3;
+  --text-secondary: #8f98a0;
+  --steam-blue: #3b82f6;
+  --steam-dark-blue: #1f2937;
+  --radius-card: 12px;
+  --radius-pill: 20px;
+  --space-card: 16px;
+  --space-section: 24px;
+  --transition: all 0.3s ease-out;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Ngăn user select / drag toàn bộ launcher */
+html, body {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Cho phép select trong input/textarea/contenteditable */
+input, textarea, [contenteditable="true"] {
+  user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  -moz-user-select: text;
+}
+
+/* Block image dragging (trừ admin drag-reorder rows) */
+img { pointer-events: auto; }
+img:not([data-allow-drag]) { -webkit-user-drag: none; user-drag: none; }
+
+/* Admin drag-reorder: cho phép drag trên row chứa img */
+tr[draggable="true"] img { -webkit-user-drag: none; pointer-events: none; }
+
+body {
+  font-family: "Inter", "Montserrat", "Segoe UI", "Noto Sans", "Tahoma", Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(1200px 680px at 2% -8%, rgba(59, 130, 246, 0.2), transparent 60%),
+    radial-gradient(900px 560px at 88% 6%, rgba(16, 185, 129, 0.12), transparent 58%),
+    linear-gradient(180deg, #0b0e14 0%, #10151d 64%, #0b0e14 100%);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(900px 520px at 20% 15%, rgba(59, 130, 246, 0.25), transparent 62%),
+    linear-gradient(180deg, #0f141c 0%, #0b0e14 100%);
+}
+
+.auth-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.auth-header { margin-bottom: 30px; }
+.auth-title { font-size: 24px; font-weight: 700; letter-spacing: 2px; color: #d8e6f0; margin-bottom: 5px; }
+.auth-subtitle { font-size: 12px; color: var(--accent-blue); text-transform: uppercase; font-weight: 700; }
+
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; font-size: 11px; color: #9eb2c1; font-weight: 700; margin-bottom: 8px; }
+
+.auth-input {
+  width: 100%;
+  background: #121b26;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-pill);
+  padding: 12px;
+  color: #d8e6f0;
+  font-size: 14px;
+  outline: none;
+  transition: var(--transition);
+}
+
+.auth-input:focus { border-color: var(--accent-blue); background: #162332; }
+
+.auth-options { margin-bottom: 25px; }
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #afafaf;
+  user-select: none;
+}
+
+.checkbox-container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #32353c;
+  border-radius: 2px;
+}
+
+.checkbox-container input:checked ~ .checkmark { background-color: var(--accent-blue); }
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px; top: 3px; width: 5px; height: 10px;
+  border: solid white; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-container input:checked ~ .checkmark:after { display: block; }
+
+.auth-btn-submit {
+  width: 100%;
+  background: linear-gradient(180deg, var(--accent-blue) 0%, #2563eb 100%);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 14px;
+  border-radius: var(--radius-pill);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.auth-btn-submit:hover { filter: brightness(1.08); }
+.auth-btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.auth-error {
+  background: rgba(255, 77, 77, 0.1);
+  color: #ff4d4d;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  border-left: 3px solid #ff4d4d;
+}
+
+.account-picker-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 150px;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 4px 14px;
+}
+
+.auth-picker-card {
+  max-width: 980px;
+  background: linear-gradient(180deg, #1f2936 0%, #16202b 100%);
+  border: 1px solid #2f3f53;
+}
+
+.account-picker-tile { position: relative; width: 150px; }
+
+.account-picker-item {
+  border: none;
+  background: transparent;
+  color: #fff;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+}
+
+.account-picker-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #203245 0%, #1a2838 100%);
+  border: 1px solid #3f5368;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.account-picker-item:hover .account-picker-box {
+  border-color: #66c0f4;
+  transform: translateY(-2px);
+}
+
+.account-picker-avatar { width: 100%; height: 100%; object-fit: cover; }
+
+.account-picker-plus {
+  background: #0e141b;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.account-picker-name {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-picker-username {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #8f98a0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-picker-delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #58718a;
+  background: rgba(14, 20, 27, 0.95);
+  color: #d5dbe3;
+  cursor: pointer;
+}
+
+.account-picker-alt-btn { background: #2f3f53; }
+
+/* ── App Shell ──────────────────────────────────────────────────────────── */
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-navbar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 24px;
+  background: var(--bg-nav);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  flex-shrink: 0;
+  z-index: 200;
+}
+
+.app-navbar-brand-wrap {
+  margin-right: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.app-navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: color 0.18s, background 0.18s;
+  font-family: "Montserrat", sans-serif;
+}
+.app-navbar-brand:hover {
+  color: var(--accent-blue);
+  background: rgba(255,255,255,0.04);
+}
+
+.app-navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  white-space: nowrap;
+}
+.nav-btn:hover { background: rgba(255,255,255,0.06); color: #fff; }
+.nav-btn.active {
+  background: rgba(59,130,246,0.18);
+  color: var(--accent-blue);
+  border-bottom: 2px solid var(--accent-blue);
+}
+.nav-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  margin-left: 7px;
+  border-radius: 9px;
+  background: var(--accent-blue, #3b82f6);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.app-navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.nav-icon-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+.nav-icon-btn:hover { background: rgba(255,255,255,0.08); }
+.nav-icon-btn.active { background: rgba(59,130,246,0.18); color: var(--accent-blue); }
+.nav-icon-badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #ef4444;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.app-navbar-name {
+  font-size: 13px;
+  color: var(--text-secondary);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-shell-logout {
+  width: auto !important;
+  padding: 8px 16px !important;
+  font-size: 13px !important;
+}
+
+.app-shell-main {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 0;
+}
+
+/* btn-secondary for pagination etc. */
+.btn-secondary {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #c7d5e0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.btn-secondary:hover:not(:disabled) { background: rgba(255,255,255,0.12); }
+.btn-secondary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* hidden utility */
+.hidden { display: none !important; }
+
+/* ── User Avatar ────────────────────────────────────────────────────────── */
+
+.user-avatar-wrap {
+  position: relative;
+}
+
+.user-avatar-btn {
+  position: relative;
+  height: 36px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, #1e3a5f, #2563eb);
+  cursor: pointer;
+  padding: 0 14px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: visible;
+  transition: border-color 0.18s, box-shadow 0.18s;
+  flex-shrink: 0;
+}
+
+/* Avatar image/initials phải tự co lại trong button pill */
+.user-avatar-btn .user-avatar-img,
+.user-avatar-btn .user-avatar-initials {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.user-avatar-btn .user-avatar-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-avatar-btn .user-avatar-initials {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3a5f, #2563eb);
+}
+
+/* Số dư hiển thị bên phải avatar — real-time */
+.user-avatar-balance {
+  font-size: 12px;
+  font-weight: 700;
+  color: #a4d007;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  user-select: none;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.user-avatar-btn:hover {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.user-avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.user-avatar-initials {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Chấm online xanh */
+.user-avatar-online {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 2px solid var(--bg-nav);
+}
+
+/* Dropdown */
+.user-avatar-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  min-width: 220px;
+  background: rgba(22, 27, 34, 0.97);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-card);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  animation: avatarDropIn 0.15s ease;
+  overflow: hidden;
+}
+
+@keyframes avatarDropIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.user-avatar-dropdown-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+}
+
+.user-avatar-dropdown-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1e3a5f, #2563eb);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar-dropdown-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+.user-avatar-dropdown-avatar span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  user-select: none;
+}
+
+.user-avatar-dropdown-info {
+  min-width: 0;
+}
+
+.user-avatar-dropdown-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.user-avatar-dropdown-balance {
+  font-size: 12px;
+  color: #a4d007;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.user-avatar-dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 0;
+}
+
+.user-avatar-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 11px 16px;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+
+.user-avatar-dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.user-avatar-dropdown-item.logout:hover {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}
+
+/* ── Custom Scrollbar ──────────────────────────────────────────────────── */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(102,192,244,0.35) rgba(22,27,34,0.4);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(22,27,34,0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(102,192,244,0.35);
+  border-radius: 4px;
+  border: 1px solid rgba(22,27,34,0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102,192,244,0.55);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ── Ẩn scrollbar ở Cửa Hàng, Game Detail và Thư viện (vẫn cuộn được) ──── */
+.store-page-wrapper,
+.gd2-scroll,
+.library-main-content,
+.sidebar-game-list {
+  scrollbar-width: none;          /* Firefox */
+  -ms-overflow-style: none;       /* IE/Edge cũ */
+}
+.store-page-wrapper::-webkit-scrollbar,
+.gd2-scroll::-webkit-scrollbar,
+.library-main-content::-webkit-scrollbar,
+.sidebar-game-list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;                  /* Chrome/Edge/WebView2 */
+}

@@ -1,0 +1,33 @@
+{
+  "name": "nyvexa-launcher-tauri",
+  "private": true,
+  "version": "1.0.2",
+  "type": "module",
+  "scripts": {
+    "setup:icons": "node scripts/setup-icons.cjs",
+    "dev": "npm run setup:icons && vite",
+    "build": "npm run setup:icons && tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "npm run setup:icons && tauri",
+    "tauri:dev": "npm run setup:icons && tauri dev",
+    "tauri:build": "npm run setup:icons && tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.4.0",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "@tauri-apps/plugin-process": "^2.3.1",
+    "@tauri-apps/plugin-shell": "^2.2.0",
+    "@tauri-apps/plugin-updater": "^2.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.4.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}

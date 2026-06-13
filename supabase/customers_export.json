@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-0000000000e1",
+    "username": "event",
+    "display_name": "Event Manager",
+    "email": "event@yahoo.com",
+    "role": "event",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "b17211e5-4dbe-4fee-8bc4-019ed34582b8",
+    "username": "phatbin1806",
+    "display_name": "phatbin1806",
+    "email": "lehuuphat1806@gmail.com",
+    "role": "user",
+    "balance": "156880.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "3489700",
+        "name": "Stellar Blade™"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": "2277560",
+        "name": "WUCHANG: Fallen Feathers"
+      },
+      {
+        "appid": "1790600",
+        "name": "DRAGON BALL: Sparking! ZERO"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "638cc7ad-ba1e-45cc-8448-042f68abdfc0",
+    "username": "minhdaidz209",
+    "display_name": "minhdaidz209",
+    "email": "mdai54161@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "82165647-ed47-443c-a1ba-0685ed1a4fea",
+    "username": "soiphecan",
+    "display_name": "soiphecan",
+    "email": "baobmt368@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "f1177e23-673d-426f-a010-08553138d632",
+    "username": "manager",
+    "display_name": "manager",
+    "email": "ilovefemoboy69@gmail.com",
+    "role": "manager",
+    "balance": "99614907560.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "2483190",
+        "name": "Forza Horizon 6"
+      },
+      {
+        "appid": "3784580",
+        "name": "Goth Obsession: Touch Adventure"
+      },
+      {
+        "appid": "613100",
+        "name": "House Flipper"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 422834f3-947c-475e-95ac-65719b4b97e5 không tìm thấy)"
+      },
+      {
+        "appid": "883710",
+        "name": "Resident Evil 2"
+      },
+      {
+        "appid": null,
+        "name": "(game_id dbf52635-05a7-48a0-aea3-4604cead619e không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 95c93607-56ee-4be0-9913-d52b2ce210cd không tìm thấy)"
+      },
+      {
+        "appid": "1245620",
+        "name": "ELDEN RING"
+      },
+      {
+        "appid": "2399220",
+        "name": "NUKITASHI"
+      },
+      {
+        "appid": "3602290",
+        "name": "FEMBOY FUTA HOUSE"
+      },
+      {
+        "appid": null,
+        "name": "(game_id b34a8558-f133-4e45-85ec-4ff45adcc933 không tìm thấy)"
+      },
+      {
+        "appid": "1295660",
+        "name": "Sid Meier's Civilization VII"
+      },
+      {
+        "appid": null,
+        "name": "(game_id b0d11f3d-8d34-4edc-adce-ac8c7ada71d4 không tìm thấy)"
+      },
+      {
+        "appid": "280160",
+        "name": "Aragami"
+      },
+      {
+        "appid": "3399950",
+        "name": "Your Mother"
+      },
+      {
+        "appid": "1004640",
+        "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles"
+      },
+      {
+        "appid": "3621840",
+        "name": "My Goth Girl"
+      },
+      {
+        "appid": "1190970",
+        "name": "House Flipper 2"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7e667598-8f34-416a-8a9e-febe2fe9a0a4 không tìm thấy)"
+      },
+      {
+        "appid": "431960",
+        "name": "Wallpaper Engine"
+      },
+      {
+        "appid": "1971870",
+        "name": "Mortal Kombat 1"
+      },
+      {
+        "appid": "2868840",
+        "name": "Slay the Spire 2"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 0098157f-3b64-416a-879e-70ae87cce012 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 03d0c967-fc41-4383-a6e7-8357ac525bd3 không tìm thấy)"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "a0b4cb69-0fbd-4365-a57b-0bc1cc868d12",
+    "username": "thecmnhuy",
+    "display_name": "thecmnhuy",
+    "email": "thehuy.2908@gmail.com",
+    "role": "user",
+    "balance": "1080.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id c183c928-8d49-43b5-ad29-e1e7368fbb8f không tìm thấy)"
+      },
+      {
+        "appid": "2527500",
+        "name": "MiSide"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": "2277560",
+        "name": "WUCHANG: Fallen Feathers"
+      },
+      {
+        "appid": "2358720",
+        "name": "Black Myth: Wukong"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "2358720",
+        "dlc_appid": "3288260",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "1903340",
+        "dlc_appid": "3873750",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "2277560",
+        "dlc_appid": "3653760",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "2277560",
+        "dlc_appid": "3653770",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "2277560",
+        "dlc_appid": "3758190",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "1903340",
+        "dlc_appid": "4227900",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "8d807018-b6d5-443e-8f30-1b8a983c1c0b",
+    "username": "2ponn2",
+    "display_name": "2ponn2",
+    "email": "hao219105@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 404c3e53-97fb-470e-8e05-95d935242f66 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 5374806b-731f-40ae-994f-b6769ce06505 không tìm thấy)"
+      },
+      {
+        "appid": "3809870",
+        "name": "Scary Game"
+      },
+      {
+        "appid": "494220",
+        "name": "Blight of the Immortals"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 1bd9dbef-c2ed-434e-ac30-f3924242d28d không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f231293c-0a96-450b-abcc-f812c9c388ad không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c073ce15-be44-4d25-b9f3-45c0d8a0d04c không tìm thấy)"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": "495800",
+        "name": "Flipside Studio"
+      },
+      {
+        "appid": "497940",
+        "name": "Destiny of Ancient Kingdoms™"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 89c64cb3-55ac-4bc1-adca-0c0cce2a4855 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f09abf6a-8d93-489b-8cd8-2e4eab6be7b3 không tìm thấy)"
+      },
+      {
+        "appid": "332950",
+        "name": "Dark Deception"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": "498850",
+        "name": "Ortus Arena, strategy board game online, FOR FREE"
+      },
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      },
+      {
+        "appid": "1293830",
+        "name": "Forza Horizon 4"
+      },
+      {
+        "appid": "1008080",
+        "name": "SYNCED"
+      },
+      {
+        "appid": "3321460",
+        "name": "Crimson Desert"
+      },
+      {
+        "appid": "4146000",
+        "name": "GANG OF DRAGON"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 17856b20-ebbf-452f-9868-d801dcb2f541 không tìm thấy)"
+      },
+      {
+        "appid": "498710",
+        "name": "After Dreams"
+      },
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      },
+      {
+        "appid": "1091500",
+        "name": "Cyberpunk 2077"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 82e0e3b2-797d-481a-b67a-a47265d97e07 không tìm thấy)"
+      },
+      {
+        "appid": "368230",
+        "name": "Kingdom: Classic"
+      },
+      {
+        "appid": "495580",
+        "name": "Divided We Fall: Play For Free"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "bcc827ae-7806-44cc-a9a8-241e17ca421a",
+    "username": "thanh123",
+    "display_name": "thanh123",
+    "email": "hsghoatphcm@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "47711f1f-54f8-421f-a56c-26a108977ec3",
+    "username": "HLang",
+    "display_name": "HLang",
+    "email": "hoangprovipvl@gmail.com",
+    "role": "user",
+    "balance": "23440.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "412020",
+        "name": "PRAGMATA"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 9d6af541-d45d-4574-b016-c4cc10e495d0 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c3bcfde7-5896-4450-8426-32c4d0bdfaa6 không tìm thấy)"
+      },
+      {
+        "appid": "3321460",
+        "name": "Crimson Desert"
+      },
+      {
+        "appid": null,
+        "name": "(game_id ec148453-fed3-443f-a261-129c724e15de không tìm thấy)"
+      },
+      {
+        "appid": "2947860",
+        "name": "Untitled John Wick Game"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "a44c38dc-f9d2-4a0f-8cad-28c15f1c9a49",
+    "username": "ngocminh",
+    "display_name": "ngocminh",
+    "email": "minnhliz2007@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "495580",
+        "name": "Divided We Fall: Play For Free"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f09abf6a-8d93-489b-8cd8-2e4eab6be7b3 không tìm thấy)"
+      },
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "39a5f8c1-1c00-48e8-a9b9-2927c8065d4a",
+    "username": "ngockhoi",
+    "display_name": "ngockhoi",
+    "email": "hodozin@gmail.com",
+    "role": "user",
+    "balance": "7080.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      },
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      },
+      {
+        "appid": "1089090",
+        "name": "ONE PIECE: PIRATE WARRIORS 4"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c3bcfde7-5896-4450-8426-32c4d0bdfaa6 không tìm thấy)"
+      },
+      {
+        "appid": "2183900",
+        "name": "Warhammer 40,000: Space Marine 2"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": "1293830",
+        "name": "Forza Horizon 4"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f09abf6a-8d93-489b-8cd8-2e4eab6be7b3 không tìm thấy)"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 1bd9dbef-c2ed-434e-ac30-f3924242d28d không tìm thấy)"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "2483190",
+        "dlc_appid": "4440380",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "2483190",
+        "dlc_appid": "4439280",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "2483190",
+        "dlc_appid": "4439260",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "b18780f9-61fc-4626-ae51-2bf5571b1f25",
+    "username": "Oven",
+    "display_name": "Oven",
+    "email": "pmc140807@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "00888273-086e-4660-8d17-2c9aae9e06ec",
+    "username": "Kùi-37",
+    "display_name": "Kùi-37",
+    "email": "masterkui1722@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "3d22ba1d-6304-40ac-9b70-321ea241ae09",
+    "username": "BaoBaoCTV",
+    "display_name": "BaoBaoCTV",
+    "email": "onlyforbbdev@proton.me",
+    "role": "user",
+    "balance": "10000.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "15288016-1b74-4489-810f-33efbba15693",
+    "username": "Robin9492",
+    "display_name": "Robin9492",
+    "email": "ronaldinho9492@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "caa612d5-dfa5-4046-bc62-3822ca36ca92",
+    "username": "msbactrungnam",
+    "display_name": "msbactrungnam",
+    "email": "phungbacong2002@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "96da266f-bd63-4f86-86cb-40b2749bc6fa",
+    "username": "hoangan7a1",
+    "display_name": "hoangan7a1",
+    "email": "tranhoangan5112006@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "3e9b55b1-1847-435f-8a43-416c4d61a91d",
+    "username": "baobaouser",
+    "display_name": "baobaouser",
+    "email": "baobaothedev@proton.me",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "4336d51d-4eb4-426a-85a2-46f5428b8e23",
+    "username": "Payer",
+    "display_name": "Payer",
+    "email": "payer@gmail.com",
+    "role": "payer",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "366697f4-cc85-485e-b3f3-4773b9dfb07c",
+    "username": "Duckk",
+    "display_name": "Duckk",
+    "email": "dangduc12335@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 9d6af541-d45d-4574-b016-c4cc10e495d0 không tìm thấy)"
+      },
+      {
+        "appid": "1222670",
+        "name": "The Sims™ 4"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "4c1b1613-b170-4dd2-927d-56c6196dc6c8",
+    "username": "mytien",
+    "display_name": "mytien",
+    "email": "nh9516009@gmail.com",
+    "role": "user",
+    "balance": "2720.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id f09abf6a-8d93-489b-8cd8-2e4eab6be7b3 không tìm thấy)"
+      },
+      {
+        "appid": "498710",
+        "name": "After Dreams"
+      },
+      {
+        "appid": "3809870",
+        "name": "Scary Game"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c073ce15-be44-4d25-b9f3-45c0d8a0d04c không tìm thấy)"
+      },
+      {
+        "appid": "1008080",
+        "name": "SYNCED"
+      },
+      {
+        "appid": null,
+        "name": "(game_id ec148453-fed3-443f-a261-129c724e15de không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 17856b20-ebbf-452f-9868-d801dcb2f541 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 1bd9dbef-c2ed-434e-ac30-f3924242d28d không tìm thấy)"
+      },
+      {
+        "appid": "597820",
+        "name": "BIOMUTANT"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": "495800",
+        "name": "Flipside Studio"
+      },
+      {
+        "appid": "498850",
+        "name": "Ortus Arena, strategy board game online, FOR FREE"
+      },
+      {
+        "appid": "332950",
+        "name": "Dark Deception"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f231293c-0a96-450b-abcc-f812c9c388ad không tìm thấy)"
+      },
+      {
+        "appid": "495580",
+        "name": "Divided We Fall: Play For Free"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "1868140",
+        "dlc_appid": "4394810",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "d45e5b03-96cd-49f6-a06e-73f18d95c94e",
+    "username": "Ovania",
+    "display_name": "Ovania",
+    "email": "justbinluv@gmail.com",
+    "role": "user",
+    "balance": "31566.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 0d68b15e-320b-41e9-a4b0-d68a4e718c0d không tìm thấy)"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "1113000",
+        "name": "Persona 4 Golden"
+      },
+      {
+        "appid": "3784580",
+        "name": "Goth Obsession: Touch Adventure"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "4669010",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "7c891605-e9ee-4970-85a1-818359aa2995",
+    "username": "long66lfc",
+    "display_name": "long66lfc",
+    "email": "longmynam@gmail.com",
+    "role": "user",
+    "balance": "8400.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "3058630",
+        "name": "Assetto Corsa EVO"
+      },
+      {
+        "appid": "2527500",
+        "name": "MiSide"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "f30ed259-8e13-4f7b-8d3a-8ac10f05c59f",
+    "username": "MewingMan00",
+    "display_name": "MewingMan00",
+    "email": "lethanhdat190909@gmail.com",
+    "role": "user",
+    "balance": "20000.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "332950",
+        "name": "Dark Deception"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "50f2f578-a702-4a81-9133-8c8df3ecc057",
+    "username": "qtruong012010",
+    "display_name": "qtruong012010",
+    "email": "quangtruong012010@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "353d6c10-21d5-40d3-9a96-8d3841415ead",
+    "username": "quantx",
+    "display_name": "quantx",
+    "email": "quanrb123@gmail.com",
+    "role": "user",
+    "balance": "5836800.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 7244129c-e2db-493f-a35a-f840c455b70b không tìm thấy)"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "979e7b92-0abe-4be6-8814-922cc1ca285d",
+    "username": "BaoBao",
+    "display_name": "BaoBao",
+    "email": "baobaothedev@gmail.com",
+    "role": "admin",
+    "balance": "1365335858.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "774171",
+        "name": "Muse Dash"
+      },
+      {
+        "appid": "1250410",
+        "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition"
+      },
+      {
+        "appid": "2679460",
+        "name": "Metaphor: ReFantazio"
+      },
+      {
+        "appid": "1313140",
+        "name": "Cult of the Lamb"
+      },
+      {
+        "appid": "3784580",
+        "name": "Goth Obsession: Touch Adventure"
+      },
+      {
+        "appid": "1011670",
+        "name": "Totally Reliable Delivery Service"
+      },
+      {
+        "appid": "2483190",
+        "name": "Forza Horizon 6"
+      },
+      {
+        "appid": "493520",
+        "name": "GTFO"
+      },
+      {
+        "appid": "2881650",
+        "name": "Content Warning"
+      },
+      {
+        "appid": "476600",
+        "name": "Call of Duty®: WWII"
+      },
+      {
+        "appid": "774361",
+        "name": "Blasphemous"
+      },
+      {
+        "appid": "534380",
+        "name": "Dying Light 2 Stay Human: Reloaded Edition"
+      },
+      {
+        "appid": "1533420",
+        "name": "Neon White"
+      },
+      {
+        "appid": "1203620",
+        "name": "Enshrouded"
+      },
+      {
+        "appid": "632360",
+        "name": "Risk of Rain 2"
+      },
+      {
+        "appid": "1245620",
+        "name": "ELDEN RING"
+      },
+      {
+        "appid": "2344520",
+        "name": "Diablo® IV"
+      },
+      {
+        "appid": "1551360",
+        "name": "Forza Horizon 5"
+      },
+      {
+        "appid": "3602290",
+        "name": "FEMBOY FUTA HOUSE"
+      },
+      {
+        "appid": "311690",
+        "name": "Enter the Gungeon"
+      },
+      {
+        "appid": "431960",
+        "name": "Wallpaper Engine"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963390",
+        "price_vnd": "46200"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "4131790",
+        "price_vnd": "85750"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963400",
+        "price_vnd": "28350"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "4669020",
+        "price_vnd": "22050"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963430",
+        "price_vnd": "28350"
+      },
+      {
+        "base_appid": "774171",
+        "dlc_appid": "2593750",
+        "price_vnd": "490000"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "4669010",
+        "price_vnd": "0"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963440",
+        "price_vnd": "72450"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963410",
+        "price_vnd": "37100"
+      },
+      {
+        "base_appid": "3602290",
+        "dlc_appid": "3963420",
+        "price_vnd": "46200"
+      }
+    ]
+  },
+  {
+    "id": "300f10c4-1fca-421f-a984-97733dac6eac",
+    "username": "Lucas",
+    "display_name": "Lucas",
+    "email": "lucas2107gs@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "3419520",
+        "name": "Quarantine Zone: The Last Check"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 78ba24ea-eedf-43d9-8818-52c21c56de5e không tìm thấy)"
+      },
+      {
+        "appid": "2604480",
+        "name": "City Transport Simulator®"
+      },
+      {
+        "appid": "287390",
+        "name": "Metro: Last Light Redux"
+      },
+      {
+        "appid": "292030",
+        "name": "The Witcher 3: Wild Hunt"
+      },
+      {
+        "appid": "883710",
+        "name": "Resident Evil 2"
+      },
+      {
+        "appid": "2458860",
+        "name": "Summer Clover"
+      },
+      {
+        "appid": null,
+        "name": "(game_id db3f47cd-4b00-4c6a-925a-117118062098 không tìm thấy)"
+      },
+      {
+        "appid": "424840",
+        "name": "Little Nightmares"
+      },
+      {
+        "appid": "3489700",
+        "name": "Stellar Blade™"
+      },
+      {
+        "appid": "255710",
+        "name": "Cities: Skylines"
+      },
+      {
+        "appid": "47780",
+        "name": "Dead Space™ 2"
+      },
+      {
+        "appid": "1326470",
+        "name": "Sons Of The Forest"
+      },
+      {
+        "appid": null,
+        "name": "(game_id ec148453-fed3-443f-a261-129c724e15de không tìm thấy)"
+      },
+      {
+        "appid": "1659040",
+        "name": "HITMAN World of Assassination"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c823b68d-5a76-4f87-84e4-41e2a49a7e0a không tìm thấy)"
+      },
+      {
+        "appid": "391220",
+        "name": "Rise of the Tomb Raider™"
+      },
+      {
+        "appid": "286690",
+        "name": "Metro 2033 Redux"
+      },
+      {
+        "appid": "1196590",
+        "name": "Resident Evil Village"
+      },
+      {
+        "appid": "2215430",
+        "name": "Ghost of Tsushima DIRECTOR'S CUT"
+      },
+      {
+        "appid": "1771300",
+        "name": "Kingdom Come: Deliverance II"
+      },
+      {
+        "appid": "1623730",
+        "name": "Palworld"
+      },
+      {
+        "appid": "227300",
+        "name": "Euro Truck Simulator 2"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "200260",
+        "name": "Batman: Arkham City - Game of the Year Edition"
+      },
+      {
+        "appid": "1091500",
+        "name": "Cyberpunk 2077"
+      },
+      {
+        "appid": "2669410",
+        "name": "Metro Awakening"
+      },
+      {
+        "appid": "4090250",
+        "name": "The Married Woman Nextdoor - Creampie SEX Beside Her Husband"
+      },
+      {
+        "appid": "264710",
+        "name": "Subnautica"
+      },
+      {
+        "appid": "412020",
+        "name": "PRAGMATA"
+      },
+      {
+        "appid": "1817190",
+        "name": "Marvel’s Spider-Man: Miles Morales"
+      },
+      {
+        "appid": "1817070",
+        "name": "Marvel’s Spider-Man Remastered"
+      },
+      {
+        "appid": "2657120",
+        "name": "My Sexy Neighbor 🔞"
+      },
+      {
+        "appid": "1030300",
+        "name": "Hollow Knight: Silksong"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c183c928-8d49-43b5-ad29-e1e7368fbb8f không tìm thấy)"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": "1903340",
+        "name": "Clair Obscur: Expedition 33"
+      },
+      {
+        "appid": null,
+        "name": "(game_id ff82ed11-467f-4df0-bb60-dbc94e79a06b không tìm thấy)"
+      },
+      {
+        "appid": "815370",
+        "name": "Green Hell"
+      },
+      {
+        "appid": "367520",
+        "name": "Hollow Knight"
+      },
+      {
+        "appid": "72850",
+        "name": "The Elder Scrolls V: Skyrim"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "2050650",
+        "dlc_appid": "2109315",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "d8028cb1-628c-47db-871a-a099499e6541",
+    "username": "quanly",
+    "display_name": "System2",
+    "email": "manager@gmail.com",
+    "role": "manager",
+    "balance": "99998196044.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "1971870",
+        "name": "Mortal Kombat 1"
+      },
+      {
+        "appid": "2677660",
+        "name": "Indiana Jones and the Great Circle"
+      },
+      {
+        "appid": "1295660",
+        "name": "Sid Meier's Civilization VII"
+      },
+      {
+        "appid": "206440",
+        "name": "To the Moon"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 8f9ce74c-ccef-4dbb-9f8b-5b726f594966 không tìm thấy)"
+      },
+      {
+        "appid": "1014270",
+        "name": "Plaguepunk Justice"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 217a6c73-afff-45fc-bc80-865702a812f5 không tìm thấy)"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 52d82f6e-1637-4263-b85d-d7c3b4322012 không tìm thấy)"
+      },
+      {
+        "appid": "1019550",
+        "name": "Thief Simulator VR"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7244129c-e2db-493f-a35a-f840c455b70b không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 77e29762-6b38-4f03-b6d7-a3c07e90c4fb không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c42d7562-eda9-4040-b9dd-a7a13ed89772 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c81c0dfd-56cd-4f21-86f1-28b79e650b9f không tìm thấy)"
+      },
+      {
+        "appid": "227300",
+        "name": "Euro Truck Simulator 2"
+      },
+      {
+        "appid": "1304930",
+        "name": "The Outlast Trials"
+      },
+      {
+        "appid": null,
+        "name": "(game_id d10350f2-c0ed-4201-ab98-1f2bc1fd767c không tìm thấy)"
+      },
+      {
+        "appid": "1551360",
+        "name": "Forza Horizon 5"
+      },
+      {
+        "appid": "3489700",
+        "name": "Stellar Blade™"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 9a16ea58-04a0-4416-8003-a603592f152f không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 9d6af541-d45d-4574-b016-c4cc10e495d0 không tìm thấy)"
+      },
+      {
+        "appid": "883710",
+        "name": "Resident Evil 2"
+      },
+      {
+        "appid": "498710",
+        "name": "After Dreams"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "1551360",
+        "dlc_appid": "3339980",
+        "price_vnd": "89000"
+      },
+      {
+        "base_appid": "1721470",
+        "dlc_appid": "1817490",
+        "price_vnd": "120000"
+      },
+      {
+        "base_appid": "227300",
+        "dlc_appid": "4348650",
+        "price_vnd": "71500"
+      }
+    ]
+  },
+  {
+    "id": "aaffeaf0-0932-4ac5-8d84-a7c137fd5ba8",
+    "username": "yukibatluc",
+    "display_name": "yukibatluc",
+    "email": "hokxplay@gmail.com",
+    "role": "ctv",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "1159c4dc-3332-4368-ae75-a8cc6164dc2a",
+    "username": "dauquangminhtrong@gmail.com",
+    "display_name": "dauquangminhtrong@gmail.com",
+    "email": "dauquangminhtrong@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1903340",
+        "name": "Clair Obscur: Expedition 33"
+      },
+      {
+        "appid": "2215430",
+        "name": "Ghost of Tsushima DIRECTOR'S CUT"
+      },
+      {
+        "appid": "2254890",
+        "name": "The Killing Antidote"
+      },
+      {
+        "appid": "1888930",
+        "name": "The Last of Us™ Part I"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 82e0e3b2-797d-481a-b67a-a47265d97e07 không tìm thấy)"
+      },
+      {
+        "appid": "2531310",
+        "name": "The Last of Us™ Part II Remastered"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": "1604030",
+        "name": "V Rising"
+      },
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      },
+      {
+        "appid": "1030300",
+        "name": "Hollow Knight: Silksong"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "0df09d84-2720-48b7-8f53-a9abf43dd1fd",
+    "username": "gogo8686",
+    "display_name": "gogo8686",
+    "email": "huynhquocdat.13620@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "2aee995f-4df1-4038-ab95-ade35f77c47f",
+    "username": "win",
+    "display_name": "win",
+    "email": "wwinwwin74@gmail.com",
+    "role": "user",
+    "balance": "28400.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 0098157f-3b64-416a-879e-70ae87cce012 không tìm thấy)"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "0f4657b3-e494-4ebd-aa95-b1855e908b38",
+    "username": "koconnaitrendoi",
+    "display_name": "koconnaitrendoi",
+    "email": "haihai15122006@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "3405340",
+        "name": "Megabonk"
+      },
+      {
+        "appid": "412020",
+        "name": "PRAGMATA"
+      },
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": "499580",
+        "name": "Crystal Control II"
+      },
+      {
+        "appid": "286690",
+        "name": "Metro 2033 Redux"
+      },
+      {
+        "appid": "498450",
+        "name": "A Week of Circus Terror"
+      },
+      {
+        "appid": "1726400",
+        "name": "The Death | Thần Trùng"
+      },
+      {
+        "appid": "976310",
+        "name": "Mortal Kombat 11"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "47780",
+        "name": "Dead Space™ 2"
+      },
+      {
+        "appid": "287390",
+        "name": "Metro: Last Light Redux"
+      },
+      {
+        "appid": "1245620",
+        "name": "ELDEN RING"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      },
+      {
+        "appid": "508440",
+        "name": "Totally Accurate Battle Simulator"
+      },
+      {
+        "appid": "1659040",
+        "name": "HITMAN World of Assassination"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 17856b20-ebbf-452f-9868-d801dcb2f541 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c073ce15-be44-4d25-b9f3-45c0d8a0d04c không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 5374806b-731f-40ae-994f-b6769ce06505 không tìm thấy)"
+      },
+      {
+        "appid": "2622380",
+        "name": "ELDEN RING NIGHTREIGN"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "c04d61f2-87c2-4787-ab5a-b390fce474b7",
+    "username": "quantrivien",
+    "display_name": "System1",
+    "email": "Admin@gmail.com",
+    "role": "admin",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "498710",
+        "name": "After Dreams"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "3eb76bae-0003-4047-a6f7-b47420623644",
+    "username": "saocungdc",
+    "display_name": "saocungdc",
+    "email": "hoa2303102010@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1030300",
+        "name": "Hollow Knight: Silksong"
+      },
+      {
+        "appid": "2253980",
+        "name": "Net 24h: Vietnamese Internet Cafe Simulator"
+      },
+      {
+        "appid": null,
+        "name": "(game_id ec148453-fed3-443f-a261-129c724e15de không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7e9a5433-3169-4fae-8756-4ae75bc9de2c không tìm thấy)"
+      },
+      {
+        "appid": "495580",
+        "name": "Divided We Fall: Play For Free"
+      },
+      {
+        "appid": "1229490",
+        "name": "ULTRAKILL"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 82e0e3b2-797d-481a-b67a-a47265d97e07 không tìm thấy)"
+      },
+      {
+        "appid": "498710",
+        "name": "After Dreams"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "e9c4dfb8-a86f-400b-baf1-b4c744ce45ff",
+    "username": "akiiii27",
+    "display_name": "akiiii27",
+    "email": "hoangnk27122@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "36995a2b-3bb7-409f-8c11-b8d28b059153",
+    "username": "DangDynasty",
+    "display_name": "DangDynasty",
+    "email": "darber.mine100@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "c083a324-67a2-4b11-b7c1-c13621fcc470",
+    "username": "NámNàmNam",
+    "display_name": "NámNàmNam",
+    "email": "mephatloc@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1293830",
+        "name": "Forza Horizon 4"
+      },
+      {
+        "appid": null,
+        "name": "(game_id c3bcfde7-5896-4450-8426-32c4d0bdfaa6 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 0098157f-3b64-416a-879e-70ae87cce012 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 9d6af541-d45d-4574-b016-c4cc10e495d0 không tìm thấy)"
+      },
+      {
+        "appid": "261570",
+        "name": "Ori and the Blind Forest"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 6f74aeb8-e333-4412-8aea-3cbe84c7ce2f không tìm thấy)"
+      },
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "f7f88c86-3f0a-4964-9f35-c21ed08a23f2",
+    "username": "ruco",
+    "display_name": "ruco",
+    "email": "rucopham113@gmail.com",
+    "role": "user",
+    "balance": "6832195.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 555f55cb-465d-43b7-8079-b107f961b970 không tìm thấy)"
+      },
+      {
+        "appid": "1295660",
+        "name": "Sid Meier's Civilization VII"
+      },
+      {
+        "appid": "227300",
+        "name": "Euro Truck Simulator 2"
+      },
+      {
+        "appid": "3121110",
+        "name": "Zort"
+      },
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 8f9ce74c-ccef-4dbb-9f8b-5b726f594966 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id e7a36857-194b-4db5-82ad-dae4ec7c8341 không tìm thấy)"
+      },
+      {
+        "appid": "2657120",
+        "name": "My Sexy Neighbor 🔞"
+      },
+      {
+        "appid": "1250410",
+        "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition"
+      },
+      {
+        "appid": null,
+        "name": "(game_id d10350f2-c0ed-4201-ab98-1f2bc1fd767c không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 95c93607-56ee-4be0-9913-d52b2ce210cd không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 77e29762-6b38-4f03-b6d7-a3c07e90c4fb không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 9d6bc77d-6a28-4a8e-8170-d46437f537c1 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 8d2354e1-41e2-49d4-a865-c530b7d384dd không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7f2a75d0-61f6-49bf-8054-ad333517a944 không tìm thấy)"
+      },
+      {
+        "appid": "2358720",
+        "name": "Black Myth: Wukong"
+      },
+      {
+        "appid": "476600",
+        "name": "Call of Duty®: WWII"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 88060fd2-f869-497f-956d-76c14b6c9a11 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 663dadfa-159b-4c32-9b94-fbe9cf4ac259 không tìm thấy)"
+      },
+      {
+        "appid": "613100",
+        "name": "House Flipper"
+      },
+      {
+        "appid": "1971870",
+        "name": "Mortal Kombat 1"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7244129c-e2db-493f-a35a-f840c455b70b không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 4ca21901-6fa0-42c5-86f0-121c828b4066 không tìm thấy)"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "a4ddd05d-f825-4509-8761-c28d2cb34980",
+    "username": "YiSinger",
+    "display_name": "YiSinger",
+    "email": "swagtn99@gmail.com",
+    "role": "user",
+    "balance": "50000.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "208480",
+        "name": "Assassin’s Creed® III"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "b90b9883-d0c9-4371-af14-c40a73e6b57b",
+    "username": "marsle24",
+    "display_name": "marsle24",
+    "email": "chelseafc.haiphong@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "b5dd744c-e2af-43c5-be7b-c98445acf7a3",
+    "username": "amdsempron92",
+    "display_name": "amdsempron92",
+    "email": "nnthinh92@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "32d6949d-3604-4595-aec6-d98852bf9aee",
+    "username": "hikota2k",
+    "display_name": "hikota2k",
+    "email": "datckamkem@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "683be547-fa73-40ca-949a-dd946737036f",
+    "username": "thuc2202",
+    "display_name": "thuc2202",
+    "email": "minhthuc.tbt.2000@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "d734c036-ad1f-4860-8246-dff5f8f5b879",
+    "username": "tranphidat1997",
+    "display_name": "tranphidat1997",
+    "email": "dattp4497@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1817190",
+        "name": "Marvel’s Spider-Man: Miles Morales"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f09abf6a-8d93-489b-8cd8-2e4eab6be7b3 không tìm thấy)"
+      },
+      {
+        "appid": "2669410",
+        "name": "Metro Awakening"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 404c3e53-97fb-470e-8e05-95d935242f66 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 78ba24ea-eedf-43d9-8818-52c21c56de5e không tìm thấy)"
+      },
+      {
+        "appid": "332950",
+        "name": "Dark Deception"
+      },
+      {
+        "appid": "292030",
+        "name": "The Witcher 3: Wild Hunt"
+      },
+      {
+        "appid": "47780",
+        "name": "Dead Space™ 2"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "214340",
+        "name": "Deponia"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "e65c1f40-cb70-4f7e-b6f9-e0447b850243",
+    "username": "thanhhthe182267",
+    "display_name": "thanhhthe182267",
+    "email": "thanhcontx@gmail.com",
+    "role": "ctv",
+    "balance": "262870.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "883710",
+        "name": "Resident Evil 2"
+      },
+      {
+        "appid": "1000080",
+        "name": "Zengeon"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "9e716ae1-0ad9-4c07-bbc3-e30e58bf2268",
+    "username": "sawadant98",
+    "display_name": "sawadant98",
+    "email": "bbkun98@gmail.com",
+    "role": "user",
+    "balance": "148400.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1627720",
+        "name": "Lies of P"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "41ae7bc5-d0ff-42d9-aaca-e51f7145a526",
+    "username": "your name",
+    "display_name": "your name",
+    "email": "nguoi7mon@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": "1721470",
+        "name": "Poppy Playtime"
+      },
+      {
+        "appid": "332950",
+        "name": "Dark Deception"
+      },
+      {
+        "appid": "241560",
+        "name": "The Crew™"
+      }
+    ],
+    "dlcs": []
+  },
+  {
+    "id": "fdd5ccf7-9a7e-4651-b0a3-e6d53b579656",
+    "username": "TpDaPoet",
+    "display_name": "TpDaPoet",
+    "email": "pman69508@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "ef7aabb3-030f-41cc-b764-ea1c2d8fb723",
+    "username": "Kangzz",
+    "display_name": "Kangzz",
+    "email": "dangduc1392002@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "8a9ce1e5-d519-472b-a841-ef58ddef00db",
+    "username": "Kei",
+    "display_name": "Kei",
+    "email": "keikisaki0@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  },
+  {
+    "id": "a7b49ba1-3d59-4482-9804-f3e5b2d034b7",
+    "username": "doibuon123",
+    "display_name": "đời buồn",
+    "email": "user@gmail.com",
+    "role": "user",
+    "balance": "9865468.00",
+    "is_banned": null,
+    "games": [
+      {
+        "appid": null,
+        "name": "(game_id 8b1a098f-a77c-4579-a685-6084b022a867 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id f7ac788a-f041-4450-acf9-c40b37b0d789 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 2573a40b-8ea1-43c5-9902-4dddbebec93b không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 95c93607-56ee-4be0-9913-d52b2ce210cd không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id aff0c910-b37f-4844-9840-5cba832355de không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 52d82f6e-1637-4263-b85d-d7c3b4322012 không tìm thấy)"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 32b38a31-9da7-4e96-8c51-00e86c5f78ba không tìm thấy)"
+      },
+      {
+        "appid": "883710",
+        "name": "Resident Evil 2"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 7244129c-e2db-493f-a35a-f840c455b70b không tìm thấy)"
+      },
+      {
+        "appid": "3121110",
+        "name": "Zort"
+      },
+      {
+        "appid": "3321460",
+        "name": "Crimson Desert"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 8d2354e1-41e2-49d4-a865-c530b7d384dd không tìm thấy)"
+      },
+      {
+        "appid": "35140",
+        "name": "Batman: Arkham Asylum Game of the Year Edition"
+      },
+      {
+        "appid": "496890",
+        "name": "Replica"
+      },
+      {
+        "appid": "497090",
+        "name": "Amihailu in Dreamland"
+      },
+      {
+        "appid": null,
+        "name": "(game_id 4b002813-9127-4be0-8847-544bddda45b3 không tìm thấy)"
+      }
+    ],
+    "dlcs": [
+      {
+        "base_appid": "3321460",
+        "dlc_appid": "4572870",
+        "price_vnd": "0"
+      }
+    ]
+  },
+  {
+    "id": "3e4079c6-d90e-421d-ae21-ffda8d5e9410",
+    "username": "thequoc",
+    "display_name": "thequoc",
+    "email": "thequoc2000@gmail.com",
+    "role": "user",
+    "balance": "0.00",
+    "is_banned": null,
+    "games": [],
+    "dlcs": []
+  }
+]

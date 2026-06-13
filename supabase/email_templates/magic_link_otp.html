@@ -1,0 +1,303 @@
+<!--
+  Supabase Auth - Magic Link / OTP email template
+  Paste vào: Supabase Dashboard > Authentication > Email Templates > Magic Link
+  Subject gợi ý: Mã xác thực đăng nhập của bạn
+  Biến hỗ trợ: {{ .Token }} {{ .ConfirmationURL }} {{ .Email }} {{ .SiteURL }}
+-->
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="supported-color-schemes" content="dark" />
+    <title>Mã xác thực đăng nhập</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #0b0e14;
+      font-family: 'Inter', 'Segoe UI', 'Tahoma', Arial, Helvetica, sans-serif;
+      color: #e6edf3;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    "
+  >
+    <!-- Preheader (ẩn) -->
+    <div
+      style="
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        mso-hide: all;
+        font-size: 1px;
+        line-height: 1px;
+        color: #0b0e14;
+        opacity: 0;
+      "
+    >
+      Mã xác thực đăng nhập của bạn là {{ .Token }} — có hiệu lực trong 5 phút.
+    </div>
+
+    <!-- Wrapper với gradient background -->
+    <table
+      role="presentation"
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="
+        background-color: #0b0e14;
+        background-image: linear-gradient(180deg, #0f141c 0%, #0b0e14 64%, #0b0e14 100%);
+      "
+    >
+      <tr>
+        <td align="center" style="padding: 40px 16px;">
+          <!-- Card chính -->
+          <table
+            role="presentation"
+            width="520"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            style="
+              max-width: 520px;
+              width: 100%;
+              background-color: #161b22;
+              border: 1px solid rgba(255, 255, 255, 0.08);
+              border-radius: 12px;
+              box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+              overflow: hidden;
+            "
+          >
+            <!-- Header với accent stripe -->
+            <tr>
+              <td
+                style="
+                  height: 4px;
+                  background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+                  line-height: 4px;
+                  font-size: 4px;
+                "
+              >
+                &nbsp;
+              </td>
+            </tr>
+
+            <!-- Brand -->
+            <tr>
+              <td align="center" style="padding: 36px 40px 8px 40px;">
+                <div
+                  style="
+                    font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+                    font-weight: 900;
+                    font-size: 22px;
+                    letter-spacing: 4px;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                  "
+                >
+                  NYVEXA
+                </div>
+                <div
+                  style="
+                    margin-top: 6px;
+                    font-size: 11px;
+                    letter-spacing: 2px;
+                    color: #3b82f6;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                  "
+                >
+                  Game Launcher
+                </div>
+              </td>
+            </tr>
+
+            <!-- Tiêu đề -->
+            <tr>
+              <td align="center" style="padding: 24px 40px 8px 40px;">
+                <h1
+                  style="
+                    margin: 0;
+                    font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #d8e6f0;
+                    letter-spacing: 0.5px;
+                  "
+                >
+                  Mã xác thực đăng nhập
+                </h1>
+              </td>
+            </tr>
+
+            <!-- Mô tả -->
+            <tr>
+              <td align="center" style="padding: 8px 40px 24px 40px;">
+                <p
+                  style="
+                    margin: 0;
+                    font-size: 14px;
+                    line-height: 1.6;
+                    color: #8f98a0;
+                  "
+                >
+                  Xin chào, vui lòng dùng mã OTP bên dưới để hoàn tất đăng nhập
+                  vào launcher.
+                </p>
+              </td>
+            </tr>
+
+            <!-- OTP Box -->
+            <tr>
+              <td align="center" style="padding: 0 40px 8px 40px;">
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  style="
+                    background-color: #121b26;
+                    border: 1px solid rgba(59, 130, 246, 0.35);
+                    border-radius: 12px;
+                  "
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        padding: 22px 40px;
+                        font-family: 'Consolas', 'Menlo', 'Courier New', monospace;
+                        font-size: 36px;
+                        font-weight: 700;
+                        letter-spacing: 10px;
+                        color: #ffffff;
+                        text-shadow: 0 0 24px rgba(59, 130, 246, 0.45);
+                      "
+                    >
+                      {{ .Token }}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Hiệu lực -->
+            <tr>
+              <td align="center" style="padding: 16px 40px 8px 40px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td
+                      style="
+                        background-color: rgba(16, 185, 129, 0.12);
+                        border: 1px solid rgba(16, 185, 129, 0.35);
+                        border-radius: 20px;
+                        padding: 6px 14px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: #10b981;
+                        letter-spacing: 0.5px;
+                      "
+                    >
+                      ⏱ Có hiệu lực trong 5 phút
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Cảnh báo bảo mật -->
+            <tr>
+              <td style="padding: 24px 40px 8px 40px;">
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  style="
+                    background-color: rgba(255, 77, 77, 0.08);
+                    border-left: 3px solid #ff4d4d;
+                    border-radius: 6px;
+                  "
+                >
+                  <tr>
+                    <td style="padding: 12px 14px;">
+                      <p
+                        style="
+                          margin: 0;
+                          font-size: 12px;
+                          line-height: 1.6;
+                          color: #c7d5e0;
+                        "
+                      >
+                        <strong style="color: #ff7a7a;">Lưu ý bảo mật:</strong>
+                        Không chia sẻ mã này với bất kỳ ai. Đội ngũ Nyvexa sẽ
+                        không bao giờ yêu cầu bạn cung cấp mã OTP qua chat,
+                        điện thoại hay email.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td style="padding: 20px 40px 0 40px;">
+                <div
+                  style="
+                    height: 1px;
+                    background: rgba(255, 255, 255, 0.07);
+                    line-height: 1px;
+                    font-size: 1px;
+                  "
+                >
+                  &nbsp;
+                </div>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td align="center" style="padding: 18px 40px 32px 40px;">
+                <p
+                  style="
+                    margin: 0 0 6px 0;
+                    font-size: 12px;
+                    color: #8f98a0;
+                    line-height: 1.6;
+                  "
+                >
+                  Nếu bạn không yêu cầu mã này, hãy bỏ qua email và đổi mật
+                  khẩu ngay lập tức.
+                </p>
+                <p
+                  style="
+                    margin: 12px 0 0 0;
+                    font-size: 11px;
+                    color: #5b6571;
+                    letter-spacing: 0.5px;
+                  "
+                >
+                  © Nyvexa Launcher · Email tự động, vui lòng không trả lời.
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Spacing dưới -->
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="height: 24px; line-height: 24px; font-size: 24px;">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
