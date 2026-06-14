@@ -1,6 +1,6 @@
-# NestG Launcher (Tauri + React)
+# Nyvexa Launcher (Tauri + React)
 
-Bản Tauri của NestG Launcher — Giai đoạn 1: Auth MVP.
+Bản Tauri của Nyvexa Launcher — Giai đoạn 1: Auth MVP.
 
 ## Yêu cầu
 
