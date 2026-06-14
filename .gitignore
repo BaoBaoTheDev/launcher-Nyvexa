@@ -1,0 +1,6 @@
+# Thư viện và dependencies
+node_modules/
+/dist/
+# File môi trường nhạy cảm (Giữ lại .env.example)
+.env
+.env.local
